@@ -66,7 +66,7 @@ public class Markov {
             return;
         }
 
-        String[] split = line.split("\\s+");
+        String[] split = line.split("\\s+"); // this genuinely sucks man
 
         for (String word : split) {
             if (!word.isEmpty()) {
@@ -115,7 +115,7 @@ public class Markov {
      * returns a random word after the given word
      */
     String randomWord(String word) {
-        ArrayList<String> next= words.get(word);
+        ArrayList<String> next = words.get(word);
         int index = (int)(Math.random() * next.size());
 
         return next.get(index);
