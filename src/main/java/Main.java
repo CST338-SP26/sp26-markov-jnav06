@@ -5,7 +5,7 @@ public class Main {
         markov.addFromFile("spam.txt");
         System.out.println(markov);
 
-        for (int i = 0; i < 10; i ++){
+        for (int i = 0; i < 75; i ++){ // to print like 300+ words
             System.out.println(markov.getSentence());
         }
     }

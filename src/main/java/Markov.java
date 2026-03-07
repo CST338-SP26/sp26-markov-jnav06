@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * File name - Markov.java
  * Class - CST 338: Software Design
- * Assignment - HW02: Markov
+ * Assignment - HW02: Markov Text Generator
  * Description: basic markov text generator that reads a file and creates random sentences from word patterns
  */
 
